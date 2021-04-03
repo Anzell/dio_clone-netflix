@@ -1,3 +1,11 @@
+@media screen and (max-width: 1000px) {
+        
+    .filmePrincipal {
+        height: 400px;
+    }
+    
+}
+
 @media screen and (max-width: 700px) {
     
     header {
@@ -12,10 +20,16 @@
         width: 80%;
     }
 
+    .carrosselFilmes .item {
+        width: 50%;
+        margin-left: 25%;
+        background-color: red;
+    }
+
 }
 
 @media screen and (min-width: 1000px) {
-    
+
     .descricao {
         width: 50%;
     }
